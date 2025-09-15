@@ -15,12 +15,12 @@ export interface Project {
 
 export const projects: Project[] = [
   {
-    id: 'rate-my-interviewer',
-    title: 'Rate My Interviewer',
+    id: 'rate-my-management',
+    title: 'Rate My Management',
     description: 'A comprehensive platform for job seekers to rate and review their interview experiences. Features real-time feedback, company insights, and community-driven content to help candidates make informed decisions about potential employers.',
-    image: 'https://ik.imagekit.io/kiddingstick/Home%20Screen.jpeg?updatedAt=1752162095895',
-    demoLink: 'https://rmi-rmm.netlify.app/',
-    repoLink: 'https://github.com/username/rate-my-interviewer',
+    image: 'https://ik.imagekit.io/kiddingstick/Screenshot%20(198).png?updatedAt=1757918983806',
+    demoLink: 'https://ratemymanagement.com/',
+    repoLink: 'https://github.com/Kiddingstickk/rmi-rmm-frontend.git',
     category: 'web',
     featured: true,
     isHighlighted: true,
