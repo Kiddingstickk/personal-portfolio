@@ -1,6 +1,7 @@
 import React from 'react';
 import { ChevronDown } from 'lucide-react';
 import Button from '../components/ui/Button';
+import MeshBackground from '../components/ui/MeshBackground';
 
 const Hero: React.FC = () => {
   return (
@@ -8,6 +9,7 @@ const Hero: React.FC = () => {
       id="home" 
       className="min-h-screen flex items-center justify-center relative overflow-hidden"
     >
+      <MeshBackground/>
       <div className="absolute inset-0 bg-gradient-to-br from-indigo-50 to-white dark:from-gray-900 dark:to-gray-800 z-0" />
       
       <div className="absolute top-20 right-[10%] w-80 h-80 bg-indigo-300 dark:bg-indigo-700 rounded-full filter blur-3xl opacity-30 animate-float z-0" />
