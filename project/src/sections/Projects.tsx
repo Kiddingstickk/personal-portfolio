@@ -4,7 +4,7 @@ import ProjectCard from '../components/ui/ProjectCard';
 import Button from '../components/ui/Button';
 import { projects, Project } from '../data/projects';
 
-type FilterCategory = 'all' | 'web' | 'mobile' | 'design';
+type FilterCategory = 'all' | 'web' | 'Machine Learning' | 'Ongoing';
 
 const Projects: React.FC = () => {
   const [activeFilter, setActiveFilter] = useState<FilterCategory>('all');
@@ -37,8 +37,8 @@ const Projects: React.FC = () => {
   const filters: { label: string; value: FilterCategory }[] = [
     { label: 'All', value: 'all' },
     { label: 'Web', value: 'web' },
-    { label: 'Mobile', value: 'mobile' },
-    { label: 'Design', value: 'design' },
+    { label: 'MAchine Learning', value: 'Machine Learning' },
+    { label: 'Ongoing', value: 'Ongoing' },
   ];
   
   return (

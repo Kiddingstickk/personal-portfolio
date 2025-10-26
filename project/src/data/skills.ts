@@ -1,7 +1,7 @@
 export interface Skill {
   name: string;
   icon: string;
-  category: 'frontend' | 'backend' | 'design' | 'other';
+  category: 'frontend' | 'backend' | 'Machine Learning' | 'other';
 }
 
 export const skills: Skill[] = [
@@ -86,20 +86,31 @@ export const skills: Skill[] = [
 
   // Design
   {
-    name: 'Figma',
-    icon: 'figma',
-    category: 'design',
+    name: 'Matplotlib',
+    icon: 'chart-bar-square',
+    category: 'Machine Learning',
   },
-  {
-    name: 'Adobe XD',
-    icon: 'square-pen',
-    category: 'design',
-  },
-  {
-    name: 'Photoshop',
-    icon: 'image',
-    category: 'design',
-  },
+  { name: 'Pandas', icon: 'table-cells', category: 'Machine Learning' },
+  { name: 'NumPy', icon: 'square-root-variable', category: 'Machine Learning' },
+  { name: 'Scikit-learn', icon: 'robot', category: 'Machine Learning' },
+  { name: 'PyTorch', icon: 'fire', category: 'Machine Learning' },
+  { name: 'TensorFlow', icon: 'brain', category: 'Machine Learning' },
+  { name: 'Keras', icon: 'layer-group', category: 'Machine Learning' },
+  { name: 'XGBoost', icon: 'chart-line', category: 'Machine Learning' },
+  { name: 'LightGBM', icon: 'bolt', category: 'Machine Learning' },
+  { name: 'OpenCV', icon: 'camera', category: 'Machine Learning' },
+  { name: 'Seaborn', icon: 'palette', category: 'Machine Learning' },
+  //{ name: 'Statsmodels', icon: 'calculator', category: 'Machine Learning' },
+  { name: 'FastAI', icon: 'rocket', category: 'Machine Learning' },
+  { name: 'Hugging Face Transformers', icon: 'comments', category: 'Machine Learning' },
+  //{ name: 'spaCy', icon: 'language', category: 'Machine Learning' },
+  //{ name: 'NLTK', icon: 'book-open', category: 'Machine Learning' },
+  //{ name: 'DVC', icon: 'code-branch', category: 'Machine Learning' },
+  { name: 'MLflow', icon: 'flask', category: 'Machine Learning' },
+  //{ name: 'Optuna', icon: 'sliders', category: 'Machine Learning' },
+  //{ name: 'Ray', icon: 'cloud', category: 'Machine Learning' },
+  //{ name: 'ONNX', icon: 'cube', category: 'Machine Learning' },
+
 
   // Other
   {
