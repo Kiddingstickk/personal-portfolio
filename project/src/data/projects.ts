@@ -74,7 +74,7 @@ export const projects: Project[] = [
   {
     id: 'Career Companion AI',
     title: 'Career Companion AI',
-    description: 'Career Companion AI: Quick Update SBERT → Matches user skills to the best career roles. (Check out the screenshots below showing the code snippet and the predicted output 📊) RAG → Helps you prep for interviews with context-aware answers. Even though it’s still running in a notebook, it’s already giving real predictions, like identifying a resume as a Java Developer with high confidence.',
+    description: 'Career Companion AI: SBERT → Matches user skills to the best career roles. RAG → Helps you prep for interviews with context-aware answers. Even though it’s still running in a notebook, it’s already giving real predictions, like identifying a resume as a Java Developer with high confidence.',
     image: 'https://ik.imagekit.io/kiddingstick/half_linedin.png?updatedAt=1761503142636',
     demoLink: 'https://github.com/Kiddingstickk/Career_companion',
     repoLink: 'https://github.com/Kiddingstickk/Career_companion',

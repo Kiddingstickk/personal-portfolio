@@ -37,7 +37,7 @@ const Projects: React.FC = () => {
   const filters: { label: string; value: FilterCategory }[] = [
     { label: 'All', value: 'all' },
     { label: 'Web', value: 'web' },
-    { label: 'MAchine Learning', value: 'Machine Learning' },
+    { label: 'Machine Learning', value: 'Machine Learning' },
     { label: 'Ongoing', value: 'Ongoing' },
   ];
   
