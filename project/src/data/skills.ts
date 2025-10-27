@@ -83,6 +83,47 @@ export const skills: Skill[] = [
     icon: 'webhook',
     category: 'backend',
   },
+  {
+    name: 'Supabase',
+    icon: 'database',
+    category: 'backend',
+  },
+  {
+    name: 'JWT',
+    icon: 'lock',
+    category: 'backend',
+  },
+  {
+    name: 'Firebase Auth',
+    icon: 'shield',
+    category: 'backend',
+  },
+  {
+    name: 'Docker',
+    icon: 'box',
+    category: 'backend',
+  },
+  {
+    name: 'Render',
+    icon: 'cloud',
+    category: 'backend',
+  },
+  {
+    name: 'Vercel',
+    icon: 'cloud',
+    category: 'backend',
+  },
+  {
+    name: 'CI/CD',
+    icon: 'refresh-cw',
+    category: 'backend',
+  },
+  {
+    name: 'Postman',
+    icon: 'send',
+    category: 'backend',
+  },
+  
 
   // Design
   {

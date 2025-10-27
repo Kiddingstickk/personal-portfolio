@@ -31,8 +31,11 @@ const About: React.FC = () => {
             </h3>
             
             <p className="text-gray-600 dark:text-gray-300">
-              Hi, I’m Satyam S. Pandey — a self-taught full-stack developer and machine learning enthusiast who thrives on building purposeful tech from the ground up. I’ve built global platforms solo, including Rate My Interviewer , and developed ML-powered tools like a MiDaS-based 3D video reconstruction pipeline. 
+              Hi, I’m Satyam S. Pandey — a self-taught full-stack developer and machine learning enthusiast who thrives on building purposeful tech from the ground up. I’ve built global platforms solo, including Rate My Management , SBERT-based semantic models, RAG pipelines, and MiDaS-powered 3D reconstruction,. 
 
+            </p>
+            <p className="text-gray-600 dark:text-gray-300">
+            I love transforming ideas into production-ready applications — from architecting robust backends to crafting intuitive user interfaces that make complex systems simple to use.
             </p>
             
             <p className="text-gray-600 dark:text-gray-300">
@@ -47,19 +50,36 @@ const About: React.FC = () => {
               <ul className="space-y-2">
                 <li className="flex items-start">
                   <span className="inline-block w-2 h-2 bg-indigo-500 rounded-full mt-2 mr-3"></span>
-                  <span className="text-gray-600 dark:text-gray-300">User-centered design methodologies</span>
+                  <span className="text-gray-600 dark:text-gray-300">Human-centered systems with intelligent feedback loops</span>
                 </li>
                 <li className="flex items-start">
                   <span className="inline-block w-2 h-2 bg-indigo-500 rounded-full mt-2 mr-3"></span>
-                  <span className="text-gray-600 dark:text-gray-300">Clean, maintainable code and architecture</span>
+                  <span className="text-gray-600 dark:text-gray-300">Modular, maintainable architecture that scales gracefully</span>
                 </li>
                 <li className="flex items-start">
                   <span className="inline-block w-2 h-2 bg-indigo-500 rounded-full mt-2 mr-3"></span>
-                  <span className="text-gray-600 dark:text-gray-300">Performance and accessibility best practices</span>
+                  <span className="text-gray-600 dark:text-gray-300">Performance, accessibility, and real-world impact over complexity</span>
                 </li>
                 <li className="flex items-start">
                   <span className="inline-block w-2 h-2 bg-indigo-500 rounded-full mt-2 mr-3"></span>
                   <span className="text-gray-600 dark:text-gray-300">Collaborative problem-solving</span>
+                </li>
+              </ul>
+            </div>
+            <div className="pt-4">
+              <h4 className="text-lg font-semibold mb-3 text-gray-900 dark:text-white">My Current Focus</h4>
+              <ul className="space-y-2">
+                <li className="flex items-start">
+                  <span className="inline-block w-2 h-2 bg-indigo-500 rounded-full mt-2 mr-3"></span>
+                  <span className="text-gray-600 dark:text-gray-300">Building AI-driven web products that combine semantic understanding, retrieval, and generation</span>
+                </li>
+                <li className="flex items-start">
+                  <span className="inline-block w-2 h-2 bg-indigo-500 rounded-full mt-2 mr-3"></span>
+                  <span className="text-gray-600 dark:text-gray-300">Designing efficient, maintainable backend systems with secure data flow</span>
+                </li>
+                <li className="flex items-start">
+                  <span className="inline-block w-2 h-2 bg-indigo-500 rounded-full mt-2 mr-3"></span>
+                  <span className="text-gray-600 dark:text-gray-300">Exploring the convergence of AI, UX, and automation to build next-gen digital tools</span>
                 </li>
               </ul>
             </div>
