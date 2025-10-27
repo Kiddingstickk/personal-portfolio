@@ -27,7 +27,7 @@ const About: React.FC = () => {
           
           <div className="space-y-6">
             <h3 className="text-2xl font-bold text-gray-900 dark:text-white">
-              Full-Stack Developer with a Passion for Beautiful UI
+            Full-Stack & AI Engineer Building Intelligent, Scalable Systems
             </h3>
             
             <p className="text-gray-600 dark:text-gray-300">
