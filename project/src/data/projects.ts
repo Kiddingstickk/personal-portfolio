@@ -89,7 +89,7 @@ export const projects: Project[] = [
     image: 'https://ik.imagekit.io/kiddingstick/Screenshot%20(224).png', // replace with an actual screenshot URL if you have one
     demoLink: 'https://ecommerce-frontendclone.netlify.app/',
     repoLink: 'https://github.com/yourusername/shophub-frontend', // replace with your actual repo link
-    category: 'web',
+    category: 'Machine Learning',
     featured: true,
     techStack: ['React', 'JavaScript', 'CSS', 'Netlify'],
 },
