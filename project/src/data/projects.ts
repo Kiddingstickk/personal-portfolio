@@ -82,6 +82,17 @@ export const projects: Project[] = [
     featured: true,
     techStack: ['React Native', 'TypeScript', 'Redux', 'Firebase', 'Google Maps API'],
   },
+  {
+    id: 'ShopHub E-commerce Frontend',
+    title: 'ShopHub – E-commerce Frontend',
+    description: 'ShopHub is a basic frontend dummy for an e-commerce website. – Built with React and styled components. – Features product listings, cart functionality, and responsive design. – Deployed via Netlify for easy access.',
+    image: 'https://ik.imagekit.io/kiddingstick/Screenshot%20(224).png', // replace with an actual screenshot URL if you have one
+    demoLink: 'https://ecommerce-frontendclone.netlify.app/',
+    repoLink: 'https://github.com/yourusername/shophub-frontend', // replace with your actual repo link
+    category: 'web',
+    featured: true,
+    techStack: ['React', 'JavaScript', 'CSS', 'Netlify'],
+},
 
 
 ];
